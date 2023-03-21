@@ -9,150 +9,154 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>745</width>
+    <width>868</width>
     <height>556</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <property name="windowIcon">
-   <iconset resource="icon.qrc">
-    <normaloff>:/Icon/ins.PNG</normaloff>:/Icon/ins.PNG</iconset>
-  </property>
   <property name="styleSheet">
-   <string notr="true"/>
-  </property>
-  <widget class="QWidget" name="widget_2" native="true">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>20</y>
-     <width>550</width>
-     <height>500</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton#WebpushButton
+   <string notr="true">QPushButton#InspushButton,#FacepushButton,#TwpushButton,#InpushButton
 {
 	background-color: rgba(0, 0, 0, 0);
 	color:rgba(85, 98, 112, 255);
 
 }
-QPushButton#WebpushButton:hover
+QPushButton#InspushButton:hover,#FacepushButton:hover,#TwpushButton:hover,#InpushButton:hover
 {
 	color:rgba(131, 96, 53, 255);
 }
-QPushButton#WebpushButton:pressed
+QPushButton#InspushButton:pressed,#FacepushButton:pressed,#TwpushButton:pressed,#InpushButton:pressed
 {
 	padding-left:5px;
 	padding-top:5px;
 	color:rgba(91, 88, 53, 255);
 }</string>
-   </property>
-   <widget class="QWidget" name="widget_3" native="true">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>80</y>
-      <width>251</width>
-      <height>361</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgba(255,255,255,255);
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="1">
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QWidget" name="sdsd" native="true">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>331</width>
+        <height>520</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image:url(:/Icon/den.jpg);
+border-top-left-radius:50px</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>428</x>
+        <y>9</y>
+        <width>341</width>
+        <height>520</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255,255,255,255);
 border-bottom-right-radius:50px;</string>
-    </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>70</x>
-       <y>10</y>
-       <width>101</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>20</pointsize>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color:rgba(0, 0, 0, 200);</string>
-     </property>
-     <property name="text">
-      <string>Log In</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>100</y>
-       <width>113</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">backgrount-color:rgba(0,0,0,0);
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>101</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(0, 0, 0, 200);</string>
+       </property>
+       <property name="text">
+        <string>Log In</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>120</y>
+         <width>211</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0,0,0,0);
 border:none;
 border-bottom: 2px solid rgba(46, 82, 101, 200);
-color:tgba(0, 0, 0, 240);
+color:rgba(0, 0, 0, 240);
 padding-bottom:7px;</string>
-     </property>
-     <property name="placeholderText">
-      <string>User Name</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>170</y>
-       <width>113</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">backgrount-color:rgba(0,0,0,0);
+       </property>
+       <property name="placeholderText">
+        <string>User Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>180</y>
+         <width>211</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0,0,0,0);
 border:none;
 border-bottom: 2px solid rgba(46, 82, 101, 200);
-color:tgba(0, 0, 0, 240);
+color:rgba(0, 0, 0, 240);
 padding-bottom:7px;</string>
-     </property>
-     <property name="placeholderText">
-      <string>Password</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="LoginpushButton">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>220</y>
-       <width>131</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Arial Black</family>
-       <pointsize>11</pointsize>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#LoginpushButton
+       </property>
+       <property name="placeholderText">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="LoginpushButton">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>230</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#LoginpushButton
 {
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 		     rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
@@ -168,254 +172,176 @@ QPushButton#LoginpushButton:pressed
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
 }</string>
-     </property>
-     <property name="text">
-      <string>Log In</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>260</y>
-       <width>221</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color:rgba(0, 0 ,0 210);</string>
-     </property>
-     <property name="text">
-      <string>Forgot your User Name or password?</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="WebpushButton">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>300</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>15</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#WebpushButton
+       </property>
+       <property name="text">
+        <string>Log In</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>300</y>
+         <width>221</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(0, 0 ,0 210);</string>
+       </property>
+       <property name="text">
+        <string>Forgot your User Name or password?</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>350</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="FacepushButton">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>font social media 2018</family>
+            <pointsize>15</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>f</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="InspushButton">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>font social media 2018</family>
+            <pointsize>15</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton#InspushButton
 {
 	background-color: rgba(0, 0, 0, 0);
 	color:rgba(85, 98, 112, 255);
 
 }
-QPushButton#WebpushButton:hover
+QPushButton#InspushButton:hover
 {
 	color:rgba(131, 96, 53, 255);
 }
-QPushButton#WebpushButton:pressed
+QPushButton#InspushButton:pressed
 {
 	padding-left:5px;
 	padding-top:5px;
 	color:rgba(91, 88, 53, 255);
 }</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset resource="icon.qrc">
-       <normaloff>:/Icon/ins.PNG</normaloff>:/Icon/ins.PNG</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
+          </property>
+          <property name="text">
+           <string>c</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="TwpushButton">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>font social media 2018</family>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>t</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="InpushButton">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>font social media 2018</family>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>i</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
     </widget>
-    <widget class="QPushButton" name="WebpushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>300</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>15</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#WebpushButton
-{
-	background-color: rgba(0, 0, 0, 0);
-	color:rgba(85, 98, 112, 255);
-
-}
-QPushButton#pushButton:hover
-{
-	color:rgba(131, 96, 53, 255);
-}
-QPushButton#WebpushButton:pressed
-{
-	padding-left:5px;
-	padding-top:5px;
-	color:rgba(91, 88, 53, 255);
-}</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset resource="icon.qrc">
-       <normaloff>:/Icon/ins.PNG</normaloff>:/Icon/ins.PNG</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="WebpushButton_3">
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>300</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>15</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#WebpushButton
-{
-	background-color: rgba(0, 0, 0, 0);
-	color:rgba(85, 98, 112, 255);
-
-}
-QPushButton#pushButton:hover
-{
-	color:rgba(131, 96, 53, 255);
-}
-QPushButton#WebpushButton:pressed
-{
-	padding-left:5px;
-	padding-top:5px;
-	color:rgba(91, 88, 53, 255);
-}</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset resource="icon.qrc">
-       <normaloff>:/Icon/ins.PNG</normaloff>:/Icon/ins.PNG</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="WebpushButton_4">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>300</y>
-       <width>30</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>15</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton#WebpushButton
-{
-	background-color: rgba(0, 0, 0, 0);
-	color:rgba(85, 98, 112, 255);
-
-}
-QPushButton#pushButton:hover
-{
-	color:rgba(131, 96, 53, 255);
-}
-QPushButton#WebpushButton:pressed
-{
-	padding-left:5px;
-	padding-top:5px;
-	color:rgba(91, 88, 53, 255);
-}</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset resource="icon.qrc">
-       <normaloff>:/Icon/ins.PNG</normaloff>:/Icon/ins.PNG</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>30</width>
-       <height>30</height>
-      </size>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>231</width>
-      <height>361</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-image:url(:/Icon/den.jpg);
-border-top-left-radius:50px</string>
-    </property>
-   </widget>
-  </widget>
+   </item>
+  </layout>
  </widget>
- <resources>
-  <include location="icon.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
