@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>452</height>
+    <height>497</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -44,7 +44,7 @@
     <rect>
      <x>40</x>
      <y>190</y>
-     <width>91</width>
+     <width>121</width>
      <height>16</height>
     </rect>
    </property>
@@ -141,11 +141,24 @@
   <widget class="QLineEdit" name="lineEdit_7">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>370</y>
+     <x>30</x>
+     <y>380</y>
      <width>91</width>
      <height>22</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>380</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
    </property>
   </widget>
  </widget>
