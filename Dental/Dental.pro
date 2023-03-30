@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    deskform.cpp \
     joinmembershipform.cpp \
     loginform.cpp \
     main.cpp \
@@ -16,11 +17,13 @@ SOURCES += \
 
 HEADERS += \
     dentalmanager.h \
+    deskform.h \
     joinmembershipform.h \
     loginform.h
 
 FORMS += \
     dentalmanager.ui \
+    deskform.ui \
     joinmembershipform.ui \
     loginform.ui
 

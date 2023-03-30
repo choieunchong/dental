@@ -75,7 +75,7 @@ public:
         label_5->setGeometry(QRect(40, 330, 81, 31));
         lineEdit_7 = new QLineEdit(JoinmembershipForm);
         lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
-        lineEdit_7->setGeometry(QRect(50, 370, 91, 22));
+        lineEdit_7->setGeometry(QRect(30, 380, 91, 22));
         pushButton = new QPushButton(JoinmembershipForm);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(300, 380, 121, 41));
