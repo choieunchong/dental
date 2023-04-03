@@ -6,6 +6,7 @@ DentalManager::DentalManager(QWidget *parent)
     , ui(new Ui::DentalManager)
 {
     ui->setupUi(this);
+
 }
 
 DentalManager::~DentalManager()

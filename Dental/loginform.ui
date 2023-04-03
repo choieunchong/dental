@@ -9,12 +9,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>868</width>
-    <height>556</height>
+    <width>979</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>LoginForm</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QPushButton#InspushButton,#FacepushButton,#TwpushButton,#InpushButton
@@ -42,7 +42,10 @@ QPushButton#InspushButton:pressed,#FacepushButton:pressed,#TwpushButton:pressed,
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0">
+        <property name="spacing">
+         <number>0</number>
+        </property>
         <item>
          <widget class="QWidget" name="sdsd" native="true">
           <property name="styleSheet">

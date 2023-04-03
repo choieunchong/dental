@@ -13,19 +13,22 @@ SOURCES += \
     joinmembershipform.cpp \
     loginform.cpp \
     main.cpp \
-    dentalmanager.cpp
+    dentalmanager.cpp \
+    registrationform.cpp
 
 HEADERS += \
     dentalmanager.h \
     deskform.h \
     joinmembershipform.h \
-    loginform.h
+    loginform.h \
+    registrationform.h
 
 FORMS += \
     dentalmanager.ui \
     deskform.ui \
     joinmembershipform.ui \
-    loginform.ui
+    loginform.ui \
+    registrationform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -6,5 +6,17 @@
         <file>Icon/in.PNG</file>
         <file>Icon/ins.PNG</file>
         <file>Icon/tw.PNG</file>
+        <file>Icon/X.PNG</file>
+        <file>Icon/max.PNG</file>
+        <file>Icon/down.PNG</file>
+        <file>Icon/bell.PNG</file>
+        <file>Icon/user1.PNG</file>
+        <file>Icon/search.PNG</file>
+        <file>Icon/box.PNG</file>
+        <file>Icon/lien.PNG</file>
+        <file>Icon/dent.png</file>
+        <file>Icon/desk.PNG</file>
+        <file>Icon/desk1.png</file>
+        <file>Icon/exit.PNG</file>
     </qresource>
 </RCC>
