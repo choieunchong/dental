@@ -1,0 +1,18 @@
+﻿  GraphicsClass.cpp
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(3,34): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(4,33): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(5,40): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  InputClass.cpp
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(3,34): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(4,33): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(5,40): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  SystemClass.cpp
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(3,34): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(4,33): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(5,40): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  WinMain.cpp
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(3,34): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(4,33): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\C_p\DirectX\DirectX\DirectX\DxDefine.h(5,40): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  코드를 생성하고 있습니다...
+LINK : fatal error LNK1104: 'd3dx11d.lib' 파일을 열 수 없습니다.
